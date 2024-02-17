@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(photo2.jpg);
+    height: 100vh;
+    background-size:100% 100% ;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background:rgba(0, 0, 0, 0.4)
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.navbar .logo a{
+     text-decoration: none;
+     font-size: 25px;
+     font-family: sans-serif;
+     color: aqua;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 15px;
+    font-family:Roboto;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:rgb(127,0,254) ;
+    border-radius: 3px;
+
+}
+
+.body .alani {
+    background-color: black;
+
+}
+
+.card h1 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+    text-align: center;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px ;
+    display: block;
+    text-align: center ;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: black ;
+    cursor: pointer;
+    transform: scale(1.1) ;
+    transition: all is ease  ;
+}
+
+
+.container2 {
+    max-width: 1170px;
+    margin:auto;
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.footer ul {
+    list-style: none;
+
+}
+
+.footer {
+    background-color: black;
+    padding: 70px 0;
+}
+
+.col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.col h4::before {
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #1e82e9;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.col ul li a:hover {
+    color: white;
+    padding-left: 8px;
+}
+
+.col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition:all 0.5s ease ;
+}
+
+.col .social-links a:hover {
+    color: #24262b;
+    background-color: white;
+
+}
+
+
+
+
+#video {
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.text {
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+.mainContentR {
+    width: 500px;
+    height: 250px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContentL {
+    width: 500px;
+    height: 250px;
+    float: left;
+    margin-left: -58px;
+}
+
+.main {
+    width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.main0 {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
