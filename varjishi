@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compitible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>სახლში ვარჯიში</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="mtavari.html">სახლში ვარჯიში</a>
+
+            </div>
+            <ul>
+                <li><a href="mtavari.html">მთავარი</a></li>
+                <li><a href="varjishi.html" class="active">ვარჯიში</a></li>
+                <li><a href="kveba.html">კვება</a></li>
+                <li><a href="dieta.html">დიეტა</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+    <section class="konteineri">
+        <h1>ზედა ტანი</h1>
+        <div class="card">
+            <div class="card-image car-1"></div>
+            <h3>ბენტ ოვერ როუ</h3>
+            <p></p>
+            <a href="varjishi zeda/bentover.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+        <div class="card">
+            <div class="card-image car-2"></div>
+            <h3>ჩეირ დიპს</h3>
+            <P></P>
+            <a href="varjishi zeda/chairdips.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+        <div class="card">
+            <div class="card-image car-3"></div>
+            <h3>პუშ აპს</h3>
+            <P></P>
+            <a href="varjishi zeda/push-ups.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+        <div class="card">
+            <div class="card-image car-4"></div>
+            <h3>ჩინ აპს</h3>
+            <P></P>
+            <a href="varjishi zeda/chinups.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+        <div class="card">
+            <div class="card-image car-5"></div>
+            <h3>ლატირალ რეისის</h3>
+            <P></P>
+            <a href="varjishi zeda/lateralraises.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+
+    </section>
+
+    <section class="konteineri2">
+        <h1>ძირითადი ვარჯიში</h1>
+        <div class="card2">
+            <div class="card-image2 car-6 "></div>
+            <h3>სით აპს</h3>
+            <a href="varjishi dziritad/situps.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+        <div class="card2">
+            <div class="card-image2 car-7"></div>
+            <h3>დიდ ლიფთ</h3>
+            <a href="varjishi dziritad/deadlift.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+        <div class="card2">
+            <div class="card-image2 car-8"></div>
+            <h3>საით ბრიჯ</h3>
+            <a href="varjishi dziritad/sidebridge.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+    </section>
+
+
+    <section class="konteineri3">
+        <h1>კვედა ტანი</h1>
+        <div class="card3">
+            <div class="card-image3 car-9 "></div>
+            <h3>ბაკეთ სქუათ</h3>
+            <a href="varjishi kveda/bucksquat.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+        <div class="card3">
+            <div class="card-image3 car-10"></div>
+            <h3>ვოლლ სქუათ</h3>
+            <a href="varjishi kveda/wallsquat.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+        <div class="card3">
+            <div class="card-image3 car-11"></div>
+            <h3>სტიპ უპს</h3>
+            <a href="varjishi kveda/stepups.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+        <div class="card3">
+            <div class="card-image3 car-12"></div>
+            <h3>სინგლ-ლეგ სქუათ</h3>
+            <a href="varjishi kveda/singlelegsq.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+        <div class="card3">
+            <div class="card-image3 car-13"></div>
+            <h3>ლანჯის</h3>
+            <a href="varjishi kveda/lunges.html" target="_blank">იხილეთ ლინკი</a>
+        </div>
+
+
+    </section>
+    <footer class="footer">
+        <div class="container2">
+            <div class="row">
+                <div class="col">
+                    <h4>კონტაქტი</h4>
+                    <ul class="2ul">
+                        <li><a href="mtavari.html" target="_blank"> ჩვენს შესახებ</a></li>
+                        <li><a href="https://www.instagram.com/_sp4rt4cus_/?hl=en" target="_blank">ინსტაგრამი</a></li>
+                        <li><a href="https://m.facebook.com/profile.php/?id=100078477534845&name=xhp_nt__fb__action__open_user"
+                                target="_blank">ფეისბუკი</a></li>
+                        <li><a href="https://twitter.com/SpartakMam69336" target="_blank">ტვიტერი</a></li>
+                        <li><a href="tel:+995555405814">(+995) 555-40-58-14</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>სავაჭრო საიტები</h4>
+                    <ul class="2ul">
+                        <li><a href="https://www.mymarket.ge/ka/search?Keyword=%E1%83%92%E1%83%90%E1%83%9C%E1%83%A2%E1%83%94%E1%83%9A%E1%83%94%E1%83%91%E1%83%98"
+                                target="_blank">განტელები</a></li>
+                        <li><a href="https://vitamini.ge/ge/product-category/7-proteini" target="_blank">პროტეინი</a>
+                        </li>
+                        <li><a href="https://sportmaster.ge/product-category/%e1%83%a4%e1%83%98%e1%83%a2%e1%83%9c%e1%83%94%e1%83%a1%e1%83%98/"
+                                target="_blank">სახლში ვარჯიშისთვის ყველაფერი</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="col">
+                    <h4>დამატებითი ინფორმაცია</h4>
+                    <ul class="2ul">
+                        <li><a href="https://www.sciencedaily.com/news/health_medicine/fitness/"
+                                target="_blank">სიახლეები</a></li>
+                        <li><a href="https://mkurnali.ge/profilaqtika/fitnesi-da-sporti/20153-pitnesi-da-kveba.html"
+                                target="_blank">ფიტნესის და კვების შესახებ ინფორმაცია</a></li>
+                        <li><a href="https://www.med.ge/index.php/diet/diets" target="_blank">დიეტის შესახებ</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
