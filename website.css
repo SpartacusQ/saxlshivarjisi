@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background: url(imageforhome.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar {
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.4)
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: aqua;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+
+
+.navbar ul li a {
+    color: aqua;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 15px;
+    font-family: Roboto;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: rgb(127, 0, 254);
+    border-radius: 3px;
+
+}
+
+.container .left {
+    position: absolute;
+    left: 12vw;
+    transform: translate(0, -50%);
+    max-width: 450px;
+
+    top: 50%;
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    font-family: sans-serif;
+    user-select: none;
+    font-size: large;
+}
+
+.container .right {
+    position: absolute;
+    right: 12vw;
+    transform: translate(0, -50%);
+    max-width: 450px;
+    top: 50%;
+    font-family: sans-serif;
+    user-select: none;
+    font-size: large;
+}
+
+.calculatori h1,
+.calculatori p {
+    color: rgb(103, 233, 189);
+    font-weight: bolder;
+}
+
+.left h1 {
+    color: aquamarine;
+    font-size: 50px;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.left p {
+    color: rgb(0, 255, 160);
+    width: 100%;
+    font-weight: bold;
+    bottom: 100px;
+    left: 0;
+    text-align: justify;
+}
+
+.calculator {
+    text-align: center;
+}
+
+.konteineri {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(50, 50, 50);
+}
+
+.konteineri h1 {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #020a12;
+    height: 2px;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.card {
+    background: rgb(142, 185, 23);
+    width: 220px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 15px;
+    margin-bottom: 150px;
+}
+
+.konteineri div h3 {
+    text-align: center;
+}
+
+.card-image {
+    background-color: rgb(50, 50, 50);
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url(https://www.spotebi.com/wp-content/uploads/2014/10/dumbbell-bent-over-row-exercise-illustration.gif);
+}
+
+.car-2 {
+    background-image: url(https://www.topendsports.com/fitness/images/home-dips.gif);
+}
+
+.car-3 {
+    background-image: url(https://www.kettlebellkings.com/cdn/shop/articles/weighted-push-up.gif?v=1701426793);
+}
+
+.car-4 {
+    background-image: url(https://fitnessprogramer.com/wp-content/uploads/2022/02/Chin-Up-Around-the-Bar.gif);
+}
+
+.car-5 {
+    background-image: url(https://gymvisual.com/img/p/1/9/1/5/1/19151.gif);
+}
+
+
+.body .alani {
+    background-color: black;
+
+}
+
+.card h1 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all is ease;
+}
+
+
+.container2 {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer ul {
+    list-style: none;
+
+}
+
+.footer {
+    background-color: black;
+    padding: 70px 0;
+}
+
+.col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #1e82e9;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.col ul li a:hover {
+    color: white;
+    padding-left: 8px;
+}
+
+
+.left h3 {
+    color: aqua;
+
+}
+
+.konteineri2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(50, 50, 50);
+}
+
+#result {
+    color: aqua;
+}
+
+.card2 {
+    background: rgb(30, 13, 89);
+    width: 220px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 15px;
+    margin-bottom: 450px;
+}
+
+.konteineri2 div h3 {
+    text-align: center;
+}
+
+.card-image2 {
+    background-color: rgb(50, 50, 50);
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-6 {
+    background-image: url(https://i.pinimg.com/originals/c6/e1/6a/c6e16a9b9dc7d97b0d4ad78b50e7b424.gif);
+}
+
+.car-7 {
+    background-image: url(https://www.kettlebellkings.com/cdn/shop/articles/barbell-deadlift-movement.gif?v=1692228918);
+}
+
+.car-8 {
+    background-image: url(https://s3assets.skimble.com/assets/1424174/image_iphone.jpg);
+}
+
+.card2:hover {
+    background-color: rgb(62, 62, 62);
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all is ease;
+}
+
+.card2 h1 {
+    padding: 10px;
+}
+
+.card2 p {
+    padding: 10px;
+}
+
+.card2 a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.konteineri2 h1 {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #020a12;
+    height: 2px;
+    box-sizing: border-box;
+    width: auto;
+    margin-bottom: -450px;
+    margin-left: 10%;
+}
+
+
+.car-9 {
+    background-image: url(https://www.topendsports.com/fitness/images/home-bucket-squat.gif)
+}
+
+.car-10 {
+    background-image: url(https://gymvisual.com/img/p/7/0/1/4/7014.gif);
+}
+
+.car-11 {
+    background-image: url(https://thumbs.dreamstime.com/z/woman-doing-dumbbell-step-ups-exercise-woman-doing-dumbbell-step-ups-exercise-flat-vector-illustration-isolated-white-217342831.jpg);
+}
+
+.car-12 {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/VAN8aidkJWHCvT2VkocJRc.jpg);
+}
+
+.car-13 {
+    background-image: url(https://www.inspireusafoundation.org/wp-content/uploads/2023/07/bodyweight-forward-lunge.gif);
+}
+
+.card3 {
+    background: rgb(97, 66, 204);
+    width: 220px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.konteineri3 div h3 {
+    text-align: center;
+}
+
+.card-image3 {
+    background-color: rgb(50, 50, 50);
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card3:hover {
+    background-color: rgb(62, 62, 62);
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all is ease;
+}
+
+.card3 h1 {
+    padding: 10px;
+}
+
+.card3 p {
+    padding: 10px;
+}
+
+.card3 a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.konteineri3 h1 {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #020a12;
+    height: 2px;
+    box-sizing: border-box;
+    width: auto;
+    margin-bottom: -1100px;
+    margin-left: 10%;
+}
+
+.konteineri3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(50, 50, 50);
+}
+
+.img1 {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.fnt {
+    font-family: system-ui;
+
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basliq {
+    width: 500px;
+    height: 40px;
+}
+
+.text {
+    width: 500px;
+    height: 300px;
+}
+
+.boxContentImg {
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+.boxContentText {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 300px;
+    float: left;
+}
+
+.boxContent {
+    width: 1100px;
+    height: 300px;
+}
+
+.box {
+    width: 1100px;
+    margin: 50 auto;
+}
+
+.image {
+    width: 300px;
+    height: 260px;
+}
+
+.text1 {
+    font-family: system-ui;
+}
